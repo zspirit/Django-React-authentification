@@ -56,11 +56,7 @@ cd FRONTEND
 ```
 npm i
 ```
-10. get into the react application
- ```
- cd my-app
- ```
-11. run the app
+10. run the app
 ```
 npm start
 ```
