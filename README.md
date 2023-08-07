@@ -60,4 +60,12 @@ npm i
 ```
 npm start
 ```
-
+# **Run the tests:**
+1. CD to BACKEND
+```
+cd BACKEND
+```
+1. Run the test command
+```
+python manage.py test
+```
