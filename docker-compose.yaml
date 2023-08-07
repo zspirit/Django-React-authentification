@@ -1,0 +1,16 @@
+services:
+  web:
+      build: ./FRONTEND
+      ports:
+        - "3000:3000"
+      volumes:
+        - ./FRONTEND:/FRONTEND
+  api:
+    build: ./BACKEND        
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./BACKEND:/BACKEND
+    command: bash -c "python manage.py runserver 0.0.0.0:8000"
+
+  
